@@ -147,11 +147,11 @@ var obj = {
   },
 };
 
-console.log(obj.getFullname());//Jorge Alonso
+console.log(obj.getFullname());//Jorge Alonso, este supongo que es por el orden en el que se estan declarando los key del objeto por lo que el interprete lee de arriba hacia abajo
 
 var test = obj.getFullname;
 
-console.log(test());//Jhoswe Castro
+console.log(test());//Jhoswe Castro, en este la verdad utilice el browser pero no tengo ni idea de porque arroja ese valor xd
 ```
 
 ### Event loop
